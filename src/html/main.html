@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our Recipe Book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mainCSS.css">
+</head>
+<body>
+<!--Title-->
+<div class="container">
+    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" id="bg" alt="">
+    <div class="text">
+        <h1>Our Recipe Book</h1>
+    </div>
+</div>
+
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="main.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+        </svg></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Recipes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Orange Chicken</a></li>
+                        <li><a class="dropdown-item" href="#">Lasagna</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Boeuf Bourguignon</a></li>
+                        <li><a class="dropdown-item" href="#">Djolof Rice</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--Cards-->
+<div class="cardHolder">
+    <div class="container">
+    <div class="row" id="cards1">
+        <h1>Cuisine Around the World: </h1>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://tipbuzz.com/wp-content/uploads/Chinese-Orange-Chicken-thumbnail-500x500.jpg" class="card-img-top" alt="Orange Chicken">
+                <div class="card-body">
+                    <h5 class="card-title">Orange Chicken</h5>
+                    <p class="card-text">The variety of orange chicken most commonly found at North American Chinese restaurants consists of chopped, battered and fried chicken pieces coated in a sweet orange-flavored chili sauce, which thickens or caramelizes to a glaze.</p>
+                    <a href="#" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://keviniscooking.com/wp-content/uploads/2020/05/Homemade-Italian-Lasagna-square.jpg" class="card-img-top" alt="Lasagna">
+                <div class="card-body">
+                    <h5 class="card-title">Lasagna</h5>
+                    <p class="card-text">Lasagna is a broad, flat sheet of pasta. It's most frequently layered with other ingredients, commonly but not exclusively a mixture of sauce, vegetables and some type of protein, and baked.</p>
+                    <a href="#" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img-3.journaldesfemmes.fr/3q1hdTGIoj2XznsQWzr9V0Cg3KY=/800x600/smart/d6db2baa728b47f8adbf30b99a957dc0/recipe-jdf/10002051.jpg" class="card-img-top" alt="Boeuf Bourguignon" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Boeuf Bourguignon</h5>
+                    <p class="card-text">Boeuf bourguignon is a beef stew braised in red wine, often red Burgundy, and beef stock, typically flavored with carrots, onions, garlic, and a bouquet garni, and garnished with pearl onions, mushrooms, and bacon.</p>
+                    <a href="#" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.thekitchenmagpie.com/wp-content/uploads/images/2019/08/jollofrice1-500x500.jpg" class="card-img-top" alt="Jollof Rice">
+                <div class="card-body">
+                    <h5 class="card-title">Jollof Rice</h5>
+                    <p class="card-text">Jollof rice is a spiced dish, simmered in reduced tomatoes, onions, peppers, and different seasonings depending on where it's made.</p>
+                    <a href="#" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <br>
+    <div class="container" >
+    <div class="row" id="cards2">
+        <h1>Deserts: </h1>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg" class="card-img-top" alt="Orange Chicken">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Chip Cookies</h5>
+                    <p class="card-text">With a texture that is slightly crispy on the outside and chewy on the inside, it’s a favorite chocolate chip cookie recipe that’s been top-rated by hundreds of satisfied home cooks.</p>
+                    <a href="https://www.bettycrocker.com/recipes/ultimate-chocolate-chip-cookies/77c14e03-d8b0-4844-846d-f19304f61c57" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.delicious.com.au/t-vFtpQM/del/2020/09/easy-peasy-lemon-meringue-pie-139330-2.jpg" class="card-img-top" alt="Lasagna">
+                <div class="card-body">
+                    <h5 class="card-title">Lemon Meringue Pie</h5>
+                    <p class="card-text">You will need a kitchen blowtorch for this delicious dessert recipe. This is an edited extract from A Table for Friends: The Art of Cooking for Two or Twenty by Skye McAlpine</p>
+                    <a href="https://www.delicious.com.au/recipes/easy-lemon-meringue-pie-recipe/qdmqyrzy?r=recipes/collections/77cijfrr" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.delicious.com.au/UsYes8Ox/del/2020/07/tart-al-limone-136586-1.jpg" class="card-img-top" alt="Boeuf Bourguignon">
+                <div class="card-body">
+                    <h5 class="card-title">Tart al Limone</h5>
+                    <p class="card-text">Citrus and dessert, a match made in Italy. Begin this recipe 4 hours ahead. </p>
+                    <a href="https://www.delicious.com.au/recipes/tart-al-limone-recipe/os8yucny?r=recipes/collections/77cijfrr" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.delicious.com.au/57Uk8b0o/w759-h506-cfill/del/2020/06/sticky-ginger-pudding-133537-2.jpg" class="card-img-top" alt="Jollof Rice">
+                <div class="card-body">
+                    <h5 class="card-title">Sticky Ginger Pudding</h5>
+                    <p class="card-text">You can never beat a pudding, unless it's spiced with ginger. And, don't forget the cream.</p>
+                    <a href="https://www.delicious.com.au/recipes/sticky-ginger-pudding-recipe/8xlpcjuh" class="btn btn-primary">Go to Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <br>
+    <div class="container" >
+        <div class="row" id="cards3">
+            <h1>Breakfast: </h1>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.bonappetit.com/photos/5a3831db9c6db03fdcaf229f/1:1/w_1920%2Cc_limit/use-it-up-fritatta-16x9.jpg" class="card-img-top" alt="Fritta">
+                    <div class="card-body">
+                        <h5 class="card-title">Use-it-Up Fritta</h5>
+                        <p class="card-text">You can put whatever you want in it, and you don't even need to turn on your oven.</p>
+                        <a href="https://www.bonappetit.com/recipe/use-it-up-frittata" class="btn btn-primary">Go to Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.bonappetit.com/photos/5c0fe205ab8bba2d9b0b515a/1:1/w_1920%2Cc_limit/fgfpdessertrecipe-UNEDITED.jpg" class="card-img-top" alt="Choclate Cashew Chia Pudding">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate-Cashew Chia Pudding</h5>
+                        <p class="card-text">This chia pudding is delicious on its own—and even better when layered with maple yogurt as a parfait.</p>
+                        <a href="https://www.bonappetit.com/recipe/chocolate-cashew-chia-pudding" class="btn btn-primary">Go to Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.bonappetit.com/photos/58700a42725909250df59f9e/1:1/w_1920%2Cc_limit/breakfast-omelet-for-dinner.jpg" class="card-img-top" alt="Omlet">
+                    <div class="card-body">
+                        <h5 class="card-title">Bacon, Mushroom, Ricotta Omlet</h5>
+                        <p class="card-text">Don’t sweat rolling this into a perfect omelet; just top the cooked eggs with mushrooms and ricotta, and fold like a taco. </p>
+                        <a href="https://www.bonappetit.com/recipe/omelet-with-bacon-mushrooms-and-ricotta" class="btn btn-primary">Go to Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.bonappetit.com/photos/5887b52b469e7bc02e8031b4/1:1/w_1920%2Cc_limit/gluten-free-oat-and-buckwheat-pancakes.jpg" class="card-img-top" alt="Pancakes">
+                    <div class="card-body">
+                        <h5 class="card-title">Pancakes</h5>
+                        <p class="card-text">These pancakes make an addictive snack: Freeze any extras and toast gently to reheat.</p>
+                        <a href="https://www.bonappetit.com/recipe/gluten-free-oat-and-buckwheat-pancakes" class="btn btn-primary">Go to Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<footer>Author Information:</footer>-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

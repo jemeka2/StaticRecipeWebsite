@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mainCSS.css">
+</head>
+<body>
+<!--Gallery NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="main.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+        </svg></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Recipes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Orange Chicken</a></li>
+                        <li><a class="dropdown-item" href="#">Lasagna</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Boeuf Bourguignon</a></li>
+                        <li><a class="dropdown-item" href="#">Djolof Rice</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--Gallery Jumbotron-->
+<div class="jumbotron p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <div class="stopBlur">
+            <h1 class="display-5 fw-bold white">Gallery</h1>
+            <p class="desc col-md-8 fs-4">Welcome to Our Recipe Gallery.</p>
+        </div>
+    </div>
+</div>
+
+<!--Gallery Carousel-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/15/1492181807-delish-sticky-orange-chicken-1.jpg" class="d-block w-75" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://sisijemimah.com/wp-content/uploads/2015/06/IMG_7971.jpg" class="d-block w-75" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://food-images.files.bbci.co.uk/food/recipes/boeuf_bourguignon_25475_16x9.jpg" class="d-block w-75" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.simplyrecipes.com/thmb/fJnwfVmIBHhBzbTz6ok6oL0VZuQ=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2004__12__lasagna-horiz-a-2000-a4631232672d4609b12b94da7a20ef90.jpg" class="d-block w-75" alt="...">
+        </div>
+    </div>
+
+</div>
+
+<!--Gallery Images-->
+<div class="images">
+    <div class="row" id="img1">
+        <div class="col">
+            <a href="#"><img src="https://more.ctv.ca/food/recipes/the-cheesiest-meat-lasagna/_jcr_content/root/responsivegrid_1778395324/responsivegrid_182136378/featuredmedia.coreimg.jpeg/1594684665478/the-cheesiest-meat-lasagna.jpeg" width="640px" height="360px"></a>
+        </div>
+        <div class="col">
+            <a href="#"><img src="https://www.gimmesomeoven.com/wp-content/uploads/2013/12/Skinny-Orange-Chicken-1.jpg" width="640px" height="360px"></a>
+        </div>
+    </div>
+    <div class="row" id="img2">
+        <div class="col">
+            <a href="#"><img src="https://www.preciouscore.com/wp-content/uploads/2018/08/Nigerian-Jollof-Rice.jpg" width="640px" height="360px"></a>
+        </div>
+        <div class="col">
+            <a href="#"><img src="https://skinnyms.com/wp-content/uploads/2013/11/Slow-Cooker-Boeuf-Bourguignon-1.jpg" width="640px" height="360px"></a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
