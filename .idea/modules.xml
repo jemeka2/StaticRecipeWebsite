@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/StaticRecipes.iml" filepath="$PROJECT_DIR$/StaticRecipes.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/StaticRecipeWebsite.iml" filepath="$PROJECT_DIR$/StaticRecipeWebsite.iml" />
+>>>>>>> 9ac771f2fec5e13afbc50cb05cc754dc9a13bd13
     </modules>
   </component>
 </project>
