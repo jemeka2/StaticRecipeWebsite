@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orange Chicken</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+      </svg></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Recipes
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Orange Chicken</a></li>
+              <li><a class="dropdown-item" href="#">Lasagna</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Boeuf Bourguignon</a></li>
+              <li><a class="dropdown-item" href="#">Djolof Rice</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</head>
+<body>
+<h3>Jolof Rice</h3>
+<table>
+  <tr>
+    <td> <img src="data:image/jpeg;base64,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" width="300" height="200"> </td>
+    <td> Senegal</td>
+  </tr>
+</table>
+<hr>
+<h4><strong>Ingredients:</strong></h4>
+<ul>
+  <li>3-4 tablespoons (42ml-56ml) vegetable oil</li>
+  <li>1 medium onion , diced, (red or white onions)</li>
+  <li>2 teaspoons (1.6g) fresh thyme or 1 teaspoon (1g) dried thyme , optional</li>
+  <li>1 tablespoon (8g) minced garlic or (9.7g) garlic powder</li>
+  <li>3 cups (591g) rice , long-grain, uncooked rice (I used Basmati)</li>
+  <li>1 tablespoon (7g) paprika</li>
+  <li>2 teaspoons (4g) chicken bouillon</li>
+  <li>salt and pepper to taste</li>
+  <li>1 14-ounce can of tomato sauce or puree</li>
+  <li>4 cups (1000ml) chicken broth or water ( 5 1/4 cups for stove top)</li>
+  <li>1 scotch bonnet pepper or ¾ teaspoon hot pepper , omit if cooking for kids</li>
+  <li>1 pound (453.59g) vegetables (optional) (can be peas and carrots, green beans or corn)</li>
+  <li>parsley for garnishing</li>
+
+</ul>
+<hr>
+<p> <strong> Directions:</strong></p>
+<ol>
+  <li>Heat oil in a medium saucepan over medium-high heat.</li>
+  <li>Next add onions, thyme, and garlic, cook for about 2 minutes or until onion becomes soft and translucent.</li>
+  <li>Add rice, season with paprika, bouillon, salt, and pepper.</li>
+  <li> Cook stirring often until fragrant, for about 30 seconds. and brown stirring occasionally, for about 2-3 minutes.</li>
+  <li>Pour tomatoes sauce, chicken broth, and hot pepper, if using any into saucepan.</li>
+  <li>Bring to a boil stirring once or twice. Reduce heat to low, cover saucepan and simmer until rice is tender and liquid is absorbed, for 15-18 minutes.</li>
+  <li>Remove pan from heat, let it sit covered for 5 minutes then fluff rice with a fork or serving spoon. Then throw in sauteed veggies and/or beef, chicken and shrimp and mix, if desired</li>
+  <li>Garnish with parsley and serve.</li>
+</ol>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

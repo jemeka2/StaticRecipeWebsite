@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orange Chicken</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+      </svg></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Recipes
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Orange Chicken</a></li>
+              <li><a class="dropdown-item" href="#">Lasagna</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Boeuf Bourguignon</a></li>
+              <li><a class="dropdown-item" href="#">Djolof Rice</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3>Lasagna</h3>
+      <table>
+        <tr>
+          <td> <img src="data:image/jpeg;base64,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" width="300" height="200"> </td>
+          <td> Italy</td>
+        </tr>
+      </table>
+      <hr>
+
+      <h4> Ingredients:</h4>
+      <ul>
+        <li>1 Tablespoon Olive Oil</li>
+        <li>1 small Onion (finely diced)</li>
+        <li>1 lb. Lean Ground Beef</li>
+        <li>3/4 teaspoon Garlic Powder (or 5 garlic cloves, finely minced)</li>
+        <li>3/4 teaspoon Salt</li>
+        <li>1/2 teaspoon Pepper</li>
+        <li>32-40 ounce jar Marinara Sauce (may use more depending on how "saucy" you want it)</li>
+      </ul>
+      <p> <strong> Parmesan Ricotta Cheese Filling:</strong></p>
+      <ul>
+        <li>2 cups Whole Milk Ricotta Cheese </li>
+        <li>1 cup Grated Parmesan Cheese </li>
+        <li>1 large Egg</li>
+        <li>1 teaspoon Dried Basi</li>
+        <li>3/4 teaspoon Salt</li>
+        <li>1/2 teaspoon Pepper</li>
+        <li>12 Lasagna Noodles</li>
+        <li>4 cups Mozzarella Cheese (may use more if you want it extra cheesy)</li>
+      </ul>
+      <hr>
+      <p><strong>Directions:</strong></p>
+      <ol>
+        <li> Start by making a homemade meat sauce. This is done by sautéing an onion in olive oil until it begins to soften. This brings out the sweet flavor of the onion.  Then it is time to brown the ground beef until it is browned and the onion is softened. Stir in the marinara sauce and let it simmer on low.  If you want your lasagna to be extra saucy, I suggest adding 1/2 jar more marinara sauce.</li>
+        <li> Make a parmesan ricotta cheese mixture. This is what gives the lasagna the creamy filling. I love to flavor the ricotta cheese with a good amount of parmesan cheese, spices, and egg to bind it together.</li>
+        <li>Use your favorite lasagna noodles. There are two choices for lasagna noodles — oven-ready pre-cooked noodles or lasagna noodles that need to be cooked before hitting the oven. I have tried both ways and can attest that they both work!</li>
+        <li>Bring on the cheese! The best lasagna is full of cheese so be generous with the layers of mozzarella cheese.</li>
+        <li>Bake covered for 15 minutes and then remove the foil and continue to cook until the cheese is bubbly. Let it set up for 10 minutes before serving.</li>
+
+    </div>
+    <div class="col"></div>
+
+  </div>
+</div>
+
+
+</ol>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
